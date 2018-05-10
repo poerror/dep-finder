@@ -1,0 +1,11 @@
+{
+  "name": "depfinder",
+  "version": "1.0.0",
+  "description": "Find app easily based on its dependencies",
+  "main": "index.js",
+  "repository": "https://github.com/poerror/depfinder.git",
+  "author": "poerror (jozefpochyba@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
