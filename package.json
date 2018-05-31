@@ -6,6 +6,13 @@
   "repository": "https://github.com/poerror/depfinder.git",
   "author": "poerror (jozefpochyba@gmail.com)",
   "license": "MIT",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^2.1.4"
   }
 }
