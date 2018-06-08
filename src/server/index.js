@@ -2,12 +2,15 @@ const express = require('express');
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
+const mongoose = require('mongoose');
 
 const webpackConfig = require('../../webpack.config.js');
 const appConfig = require('../../config');
 
 const app = express();
 const compiler = webpack(webpackConfig);
+
+mongoose.connect('mongodb://localhost/test');
 
 app.use(webpackDevMiddleware(compiler, {
   publicPath: webpackConfig.output.publicPath
